@@ -4,14 +4,12 @@
   <script src="jquery-3.2.1.js"></script>
 
   <script>
-    $( document ).ready(function() {
-      $("#includedContent").load("~/_includes/Header.html"); 
-    });
+    w3.includeHTML();
   </script>
 </head>
 
 <body>
-  <div id="includedContent"></div>
+  <div w3-include-html="_includes/Header.html"></div>
 
   <h1>Hello World</h1>
 
