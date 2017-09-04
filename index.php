@@ -8,7 +8,7 @@
 
 <body>
     <?php include 'Footer.php';?>
-    {% include Header.html %}
+    {% include Header.php %}
   <h1>Hello World</h1>
 
   <p>I'm hosted with GitHub Pages.</p>
