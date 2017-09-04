@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <script src="jquery.js"></script>
+
+  <script>
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+  </script>
+</head>
+
+<div id="includedContent"></div>
+
 <body>
-        {% include Header.html %}
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <h1>Hello World</h1>
+
+  <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
