@@ -1,23 +1,23 @@
-var Remste = Remste || {};
-Remste.GitHub = Remste.GitHub || {};
+// var Remste = Remste || {};
+// Remste.GitHub = Remste.GitHub || {};
 
-Remste.GitHub.Index = function () {
+// Remste.GitHub.Index = function () {
     
-        return {
+//         return {
     
-            // Public functions and variables
+//             // Public functions and variables
     
-            initialise: function () {
+//             initialise: function () {
                 
                 
                 
-            }
-        };
+//             }
+//         };
     
-    }();
+//     }();
     
 $(document).ready(function () {
-    Remste.GitHub.Index.initialise();
+    // Remste.GitHub.Index.initialise();
     alert("hi");
     $("#headerContent").load("https://remste.github.io/_includes/Header.html"); 
     $("#footerContent").load("https://remste.github.io/_includes/Footer.html"); 
