@@ -19,6 +19,6 @@
 $(document).ready(function () {
     // Remste.GitHub.Index.initialise();
     alert("hi");
-    $("#headerContent").load("https://remste.github.io/_includes/Header.html"); 
-    $("#footerContent").load("https://remste.github.io/_includes/Footer.html"); 
+    $("#headerContent").load("../_includes/Header.html"); 
+    $("#footerContent").load("../_includes/Footer.html"); 
 });
