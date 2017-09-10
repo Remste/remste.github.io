@@ -21,7 +21,12 @@
 <script>
     $(document).ready(function () {
       $("#headerContent").load("Header.html"); 
-      $("#footerContent").load("/_includes/Footer.html"); 
+      $("#footerContent").load("Footer.html"); 
     });
+
+    window.onload = function() {
+      var getInput = "index";
+      localStorage.setItem("storageName",getInput);
+    }
   </script>
 </html>
