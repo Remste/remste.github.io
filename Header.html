@@ -13,16 +13,15 @@
   </div>
 </nav>
 
-  <script>
-    
-    $(document).ready(function () {
-      //window.onload = alert(localStorage.getItem("storageName"));
-      var navhtml;
-      switch (localStorage.getItem("storageName")) {
-        case "index": 
-            $("#indexNavItem").show();
-            break;
-      }
-      $("#navbar-nav").load(navhtml);
-    });
-  </script>
+<script>
+  $(document).ready(function () {
+    //window.onload = alert(localStorage.getItem("storageName"));
+    var navhtml;
+    switch (localStorage.getItem("storageName")) {
+      case "index": 
+          $("#indexNavItem").show();
+          break;
+    }
+    $("#navbar-nav").load(navhtml);
+  });
+</script>
