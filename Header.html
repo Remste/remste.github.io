@@ -26,8 +26,10 @@
     switch (localStorage.getItem("storageName")) {
       case "index": 
         $("#indexNavItem").show();
+        $("#bakingNavItem").hide();
         break;
       case "baking": 
+        $("#indexNavItem").hide();
         $("#bakingNavItem").show();
         break;
     }
